@@ -1,0 +1,18 @@
+#faça um código que: mostre os valores em maneira decrescente e verefique se o valor "x" foi encontrado.
+
+valores = []
+
+resp = "S"
+while resp == "S":
+  valores.append(float(input("Digite o número: ")))
+  resp = input("Digite \"S\" para continuar: ").upper()
+
+print('-' * 30)
+print(f"Você digitou {len(valores)} elementos.")
+
+valores.sort(reverse=True)
+print(f"Os valores em ordem decrescente são:{valores}")
+if 5 in valores:
+  print("O valor 5 foi encontrado!")
+else:
+  print('O valor 5 não foi encontrado!')
