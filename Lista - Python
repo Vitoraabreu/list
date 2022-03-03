@@ -1,4 +1,4 @@
-#faça um código que: mostre os valores em maneira decrescente e verefique se o valor "x" foi encontrado.
+#faça um código que: mostre os valores em maneira decrescente e verifique se o valor "x" foi encontrado.
 
 valores = []
 
